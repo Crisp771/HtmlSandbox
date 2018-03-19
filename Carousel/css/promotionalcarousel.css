@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:900");
-/**
-  * style variables
-*/
-/**
-  * Control & indicator mixin
-*/
 .carousel {
   height: 420px;
   width: 960px;
@@ -13,21 +6,6 @@
   position: relative;
   padding: 0;
   list-style: none;
-/**
-  * Where the magic happens
-  */
-/**
-    * Control element - right/left arrows
-  */
-/**
-    * Element for holding slide indicators
-  */
-/**
-    * Indicator for indicating active slide
-  */
-/**
-    * Create rules for when slides are contained within a track
-  */
 }
 .carousel__controls,
 .carousel__activator {
@@ -252,13 +230,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html,
-body {
-  background-color: #111;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  color: #fff;
-}
 .carousel-container {
   display: inline-block;
 }
@@ -272,23 +243,6 @@ body {
 .carousel--thumb .carousel__indicator {
   height: 30px;
   width: 30px;
-}
-h1 {
-  font-size: 50px;
-  line-height: 50px;
-  color: #fafafa;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  margin-top: -25px;
-}
-h2,
-h3 {
-  color: #fafafa;
-}
-h3 {
-  font-size: 50px;
 }
 .carousel__indicator {
   background-color: #fafafa;
